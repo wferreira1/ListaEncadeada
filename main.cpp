@@ -87,6 +87,7 @@ public:
 	}
 
 	~List() {
+		this->clear();
 		delete primeiro;
 	}
 
